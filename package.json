@@ -1,6 +1,6 @@
 {
   "name":        "node-fetch-json",
-  "version":     "0.0.2",
+  "version":     "0.0.3",
   "description": "A very thin wrapper around node-fetch just for JSON",
   "license":     "MIT",
   "main":        "node-fetch-json.js",
