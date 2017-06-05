@@ -1,0 +1,39 @@
+{
+  "name": "node-fetch-json",
+  "version": "0.0.1",
+  "description": "A thin wrapper around node-fetch just for JSON",
+  "main": "node-fetch-json.js",
+  "scripts": {
+    "pretest": "jshint *.js",
+    "test": "mocha spec.js"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "strict": "implied",
+    "node": true,
+    "mocha": true,
+    "undef": true,
+    "unused": true
+  },
+  "repository": "pinntech/node-fetch-json",
+  "keywords": [
+    "fetch",
+    "javascript",
+    "json",
+    "node",
+    "node-fetch",
+    "rest"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinntech/node-fetch-json/issues"
+  },
+  "homepage": "https://github.com/pinntech/node-fetch-json",
+  "devDependencies": {
+    "jshint": "~2.9",
+    "mocha": "~3.4"
+  },
+  "dependencies": {
+    "node-fetch": "~1.7"
+  }
+}
