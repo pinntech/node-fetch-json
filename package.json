@@ -1,37 +1,30 @@
 {
-  "name": "node-fetch-json",
-  "version": "0.0.1",
-  "description": "A thin wrapper around node-fetch just for JSON",
-  "main": "node-fetch-json.js",
+  "name":        "node-fetch-json",
+  "version":     "0.0.2",
+  "description": "A very thin wrapper around node-fetch just for JSON",
+  "license":     "MIT",
+  "main":        "node-fetch-json.js",
+  "repository":  "pinntech/node-fetch-json",
+  "homepage":    "https://github.com/pinntech/node-fetch-json",
+  "bugs":        "https://github.com/pinntech/node-fetch-json/issues",
+  "docs":        "https://github.com/pinntech/node-fetch-json/blob/master/README.md",
+  "keywords":    [ "fetch", "javascript", "json", "node", "node-fetch", "rest" ],
+  "author":      { "name": "Pinn Technologies", "url": "http://pinn.ai" },
   "scripts": {
     "pretest": "jshint *.js",
-    "test": "mocha spec.js"
+    "test":    "mocha spec.js"
   },
   "jshintConfig": {
     "esversion": 6,
-    "strict": "implied",
-    "node": true,
-    "mocha": true,
-    "undef": true,
-    "unused": true
+    "strict":    "implied",
+    "node":      true,
+    "mocha":     true,
+    "undef":     true,
+    "unused":    true
   },
-  "repository": "pinntech/node-fetch-json",
-  "keywords": [
-    "fetch",
-    "javascript",
-    "json",
-    "node",
-    "node-fetch",
-    "rest"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pinntech/node-fetch-json/issues"
-  },
-  "homepage": "https://github.com/pinntech/node-fetch-json",
   "devDependencies": {
     "jshint": "~2.9",
-    "mocha": "~3.4"
+    "mocha":  "~3.4"
   },
   "dependencies": {
     "node-fetch": "~1.7"
