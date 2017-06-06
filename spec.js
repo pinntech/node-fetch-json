@@ -29,3 +29,21 @@ describe('GET books about JSON from Google APIs', () => {
         });
 
     });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+describe('Example POST from README.md documentation', () => {
+
+    it('returns the expected data', (done) => {
+        const data = { animal: 'dog', action: 'fetch' };
+        function handleJson(body) {
+            const actual =   body.json;
+            const expected = data;
+            assert.deepEqual(actual, expected);
+            done();
+            }
+        fetchJson('https://httpbin.org/post', { method: 'POST', body: data })
+            .then(handleJson)
+            .catch(console.log);
+        });
+
+    });
