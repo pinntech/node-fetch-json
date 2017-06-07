@@ -4,6 +4,8 @@ _A very thin wrapper around node-fetch just for JSON_
 [![npm](https://img.shields.io/npm/v/node-fetch-json.svg)](https://github.com/pinntech/node-fetch-json)
 [![Build Status](https://travis-ci.org/pinntech/node-fetch-json.svg)](https://travis-ci.org/pinntech/node-fetch-json)
 
+Why would you fetch anything but json? ;)
+
 ### A) Setup
 Install with the command:
 ```shell
