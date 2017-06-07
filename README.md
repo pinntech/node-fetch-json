@@ -66,7 +66,7 @@ The **node-fetch-json** module:
 
 The format for using **node-fetch-json** is:
 ```javascript
-fetchJson(url, options)
+fetchJson(url[, options])
 ```
 The `url` and `options` parameters are passed through to **node-fetch**.
 See the documentation for the **[node-fetch](https://www.npmjs.com/package/node-fetch)** project.
