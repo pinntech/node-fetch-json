@@ -20,7 +20,7 @@ const fetchJson = require('node-fetch-json');
 ### B) Usage
 **node-fetch-json** depends on and calls **[node-fetch](https://www.npmjs.com/package/node-fetch)**.
 
-#### 1. Low-level way
+#### 1. The low-level way
 **node-fetch** enables you to send and receive JSON at a REST endpoint using:
 ```javascript
 const fetch = require('node-fetch');
@@ -42,7 +42,7 @@ fetch('https://httpbin.org/post', options)
     .catch(console.log);
 ```
 
-#### 2. More concise way
+#### 2. A more concise way
 With **node-fetch-json**, the above becomes:
 ```javascript
 const fetchJson = require('node-fetch-json');
@@ -55,7 +55,7 @@ fetchJson('https://httpbin.org/post', { method: 'POST', body: data })
     .catch(console.log);
 ```
 
-#### 3. Result
+#### 3. Same result
 Both examples produce output that looks like:<br>
 **`203.0.113.254 { action: 'fetch', animal: 'dog' }`**
 
