@@ -48,3 +48,5 @@ info
 showVersions
 npm test
 echo
+node read-me-example.js
+echo
