@@ -7,6 +7,7 @@
 projectHome=$(cd $(dirname $0); pwd)
 
 info() {
+   # Check for Node.js installation and download project dependencies
     cd $projectHome
     pwd
     echo
@@ -19,9 +20,31 @@ info() {
     echo
     }
 
+showVersions() {
+    cd $projectHome
+    echo "Local changes:"
+    git status --short
+    echo
+    echo "Releases:"
+    git tag
+    echo
+    echo "Current version:"
+    versionLocal=v$(grep '"version"' package.json | awk -F'"' '{print $4}')
+    echo $versionLocal
+    echo
+    echo "To publish release:"
+    echo "   cd $projectHome"
+    echo "   git tag -af $versionLocal -m release"
+    echo "   git remote -v"
+    echo "   git push origin --tags --force"
+    echo "   npm publish"
+    echo
+    }
+
 echo
 echo "node-fetch-json"
 echo "==============="
 info
+showVersions
 npm test
 echo
