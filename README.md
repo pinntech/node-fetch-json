@@ -1,7 +1,7 @@
 # node-fetch-json
 _A very thin wrapper around node-fetch just for JSON_
 
-[![npm](https://img.shields.io/npm/v/node-fetch-json.svg)](https://github.com/pinntech/node-fetch-json)
+[![npm](https://img.shields.io/npm/v/node-fetch-json.svg)](https://www.npmjs.com/package/node-fetch-json)
 &nbsp;
 [![Build Status](https://travis-ci.org/pinntech/node-fetch-json.svg)](https://travis-ci.org/pinntech/node-fetch-json)
 
