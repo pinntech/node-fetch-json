@@ -1,7 +1,11 @@
 # node-fetch-json
 _A very thin wrapper around node-fetch just for JSON_
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pinntech/node-fetch-json/blob/master/LICENSE.txt)
+&nbsp;
 [![npm](https://img.shields.io/npm/v/node-fetch-json.svg)](https://www.npmjs.com/package/node-fetch-json)
+&nbsp;
+[![Known Vulnerabilities](https://snyk.io/test/github/pinntech/node-fetch-json/badge.svg)](https://snyk.io/test/github/pinntech/node-fetch-json)
 &nbsp;
 [![Build Status](https://travis-ci.org/pinntech/node-fetch-json.svg)](https://travis-ci.org/pinntech/node-fetch-json)
 
