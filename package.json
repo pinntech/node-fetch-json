@@ -34,7 +34,7 @@
     },
     "devDependencies": {
         "jshint": "~2.9",
-        "mocha": "~5.1"
+        "mocha": "~5.2"
     },
     "dependencies": {
         "node-fetch": "~2.1"

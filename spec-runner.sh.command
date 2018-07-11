@@ -34,8 +34,8 @@ showVersions() {
     echo
     echo "To publish release:"
     echo "   cd $projectHome"
-    echo "   git tag -af $versionLocal -m release"
-    echo "   git remote -v"
+    echo "   git tag --annotate --force --message 'Release' $versionLocal"
+    echo "   git remote --verbose"
     echo "   git push origin --tags --force"
     echo "   npm publish"
     echo
